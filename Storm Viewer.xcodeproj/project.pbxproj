@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69A966062268318800120118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A966052268318800120118 /* AppDelegate.swift */; };
+		69A966082268318800120118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A966072268318800120118 /* ViewController.swift */; };
+		69A9660A2268318C00120118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A966092268318C00120118 /* Assets.xcassets */; };
+		69A9660D2268318C00120118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A9660B2268318C00120118 /* Main.storyboard */; };
+		69A966202268356B00120118 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A966162268356B00120118 /* nssl0049.jpg */; };
+		69A966212268356B00120118 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A966172268356B00120118 /* nssl0046.jpg */; };
+		69A966222268356B00120118 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A966182268356B00120118 /* nssl0091.jpg */; };
+		69A966232268356B00120118 /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A966192268356B00120118 /* nssl0045.jpg */; };
+		69A966242268356B00120118 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A9661A2268356B00120118 /* nssl0051.jpg */; };
+		69A966252268356B00120118 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A9661B2268356B00120118 /* nssl0041.jpg */; };
+		69A966262268356B00120118 /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A9661C2268356B00120118 /* nssl0042.jpg */; };
+		69A966272268356B00120118 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A9661D2268356B00120118 /* nssl0043.jpg */; };
+		69A966282268356B00120118 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A9661E2268356B00120118 /* nssl0033.jpg */; };
+		69A966292268356B00120118 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69A9661F2268356B00120118 /* nssl0034.jpg */; };
+		69FD42E62268378400EC6426 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD42E52268378400EC6426 /* SourceViewController.swift */; };
+		69FD42E92268383600EC6426 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FD42E72268383600EC6426 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69A966022268318800120118 /* Storm Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storm Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A966052268318800120118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69A966072268318800120118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A966092268318C00120118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69A9660C2268318C00120118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69A9660E2268318C00120118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A9660F2268318C00120118 /* Storm_Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Storm_Viewer.entitlements; sourceTree = "<group>"; };
+		69A966162268356B00120118 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		69A966172268356B00120118 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		69A966182268356B00120118 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		69A966192268356B00120118 /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		69A9661A2268356B00120118 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		69A9661B2268356B00120118 /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		69A9661C2268356B00120118 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		69A9661D2268356B00120118 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		69A9661E2268356B00120118 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		69A9661F2268356B00120118 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		69FD42E52268378400EC6426 /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		69FD42E72268383600EC6426 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69A965FF2268318800120118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69A965F92268318800120118 = {
+			isa = PBXGroup;
+			children = (
+				69A966042268318800120118 /* Storm Viewer */,
+				69A966032268318800120118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69A966032268318800120118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69A966022268318800120118 /* Storm Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69A966042268318800120118 /* Storm Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				69A966052268318800120118 /* AppDelegate.swift */,
+				69A966072268318800120118 /* ViewController.swift */,
+				69A966092268318C00120118 /* Assets.xcassets */,
+				69A966152268356B00120118 /* Content */,
+				69A9660B2268318C00120118 /* Main.storyboard */,
+				69FD42E52268378400EC6426 /* SourceViewController.swift */,
+				69FD42E72268383600EC6426 /* DetailViewController.swift */,
+				69A9660E2268318C00120118 /* Info.plist */,
+				69A9660F2268318C00120118 /* Storm_Viewer.entitlements */,
+			);
+			path = "Storm Viewer";
+			sourceTree = "<group>";
+		};
+		69A966152268356B00120118 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				69A966162268356B00120118 /* nssl0049.jpg */,
+				69A966172268356B00120118 /* nssl0046.jpg */,
+				69A966182268356B00120118 /* nssl0091.jpg */,
+				69A966192268356B00120118 /* nssl0045.jpg */,
+				69A9661A2268356B00120118 /* nssl0051.jpg */,
+				69A9661B2268356B00120118 /* nssl0041.jpg */,
+				69A9661C2268356B00120118 /* nssl0042.jpg */,
+				69A9661D2268356B00120118 /* nssl0043.jpg */,
+				69A9661E2268356B00120118 /* nssl0033.jpg */,
+				69A9661F2268356B00120118 /* nssl0034.jpg */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69A966012268318800120118 /* Storm Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69A966122268318C00120118 /* Build configuration list for PBXNativeTarget "Storm Viewer" */;
+			buildPhases = (
+				69A965FE2268318800120118 /* Sources */,
+				69A965FF2268318800120118 /* Frameworks */,
+				69A966002268318800120118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storm Viewer";
+			productName = "Storm Viewer";
+			productReference = 69A966022268318800120118 /* Storm Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69A965FA2268318800120118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Jay Raval";
+				TargetAttributes = {
+					69A966012268318800120118 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 69A965FD2268318800120118 /* Build configuration list for PBXProject "Storm Viewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69A965F92268318800120118;
+			productRefGroup = 69A966032268318800120118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69A966012268318800120118 /* Storm Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69A966002268318800120118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A966272268356B00120118 /* nssl0043.jpg in Resources */,
+				69A966282268356B00120118 /* nssl0033.jpg in Resources */,
+				69A966252268356B00120118 /* nssl0041.jpg in Resources */,
+				69A966222268356B00120118 /* nssl0091.jpg in Resources */,
+				69A966242268356B00120118 /* nssl0051.jpg in Resources */,
+				69A9660A2268318C00120118 /* Assets.xcassets in Resources */,
+				69A966262268356B00120118 /* nssl0042.jpg in Resources */,
+				69A966212268356B00120118 /* nssl0046.jpg in Resources */,
+				69A966202268356B00120118 /* nssl0049.jpg in Resources */,
+				69A966232268356B00120118 /* nssl0045.jpg in Resources */,
+				69A966292268356B00120118 /* nssl0034.jpg in Resources */,
+				69A9660D2268318C00120118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69A965FE2268318800120118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69A966082268318800120118 /* ViewController.swift in Sources */,
+				69A966062268318800120118 /* AppDelegate.swift in Sources */,
+				69FD42E62268378400EC6426 /* SourceViewController.swift in Sources */,
+				69FD42E92268383600EC6426 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69A9660B2268318C00120118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A9660C2268318C00120118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69A966102268318C00120118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69A966112268318C00120118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		69A966132268318C00120118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Storm Viewer/Storm_Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S65G778W79;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JRTech.Storm-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69A966142268318C00120118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Storm Viewer/Storm_Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S65G778W79;
+				INFOPLIST_FILE = "Storm Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.JRTech.Storm-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69A965FD2268318800120118 /* Build configuration list for PBXProject "Storm Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A966102268318C00120118 /* Debug */,
+				69A966112268318C00120118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A966122268318C00120118 /* Build configuration list for PBXNativeTarget "Storm Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A966132268318C00120118 /* Debug */,
+				69A966142268318C00120118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69A965FA2268318800120118 /* Project object */;
+}
